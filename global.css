@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  line-height: normal;
+  
+}
+::-webkit-scrollbar{
+  display: none;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-anonymous-pro: "Anonymous Pro";
+  --font-inter: Inter;
+  --font-knewave: Knewave;
+  --font-bangers: Bangers;
+  --font-istok-web: "Istok Web";
+
+  /* font sizes */
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+  --font-size-mid: 17px;
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --font-size-16xl: 35px;
+  --font-size-4xl: 23px;
+  --font-size-9xl: 28px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-21xl: 40px;
+  --font-size-31xl: 50px;
+  --font-size-11xl: 30px;
+
+  /* Colors */
+  --color-darkslategray-100: #484848;
+  --color-darkslategray: #18332f;
+  --color-darkseagreen: #8ba17f;
+  --color-white: #fff;
+  --color-white_hover:#f5f5f5;
+  --color-login_hover:#d94242;
+  --color-black: #000;
+  --color-gray: #021e1a;
+  --color-tomato-100: #ea4335;
+  --color-crimson: #d91d1d;
+  --color-gold: #fbbf13;
+  --color-salmon: #f15c5c;
+  --color-crimson-100: #e33e3e;
+  --color-tomato-200: #f35325;
+  --color-dimgray: #636960;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-mid: 17px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-sm: 14px;
+  --padding-3xs: 10px;
+  --padding-lg: 18px;
+  --padding-36xl: 55px;
+  --padding-60xl: 79px;
+  --padding-122xl: 141px;
+  --padding-148xl: 167px;
+  --padding-lgi: 19px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-mini: 15px;
+  --br-6xl: 25px;
+  --br-xs: 12px;
+  --br-3xs: 10px;
+  --br-89xl: 108px;
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-5xs: 8px;
+  --gap-smi: 13px;
+  --gap-xl: 20px;
+  --gap-2xs: 11px;
+  --gap-9xs: 4px;
+  --gap-6xl: 25px;
+  --gap-7xl: 26px;
+  --gap-26xl: 45px;
+  --gap-27xl: 46px;
+  --gap-4xl: 23px;
+  --gap-xl-5: 20.5px;
+  --gap-mini: 15px;
+  --gap-18xl: 37px;
+  --gap-lg: 18px;
+  --gap-lgi: 19px;
+  --gap-14xl: 33px;
+  --gap-3xl: 22px;
+  --gap-xs: 12px;
+  --gap-6xs: 7px;
+  --gap-8xs: 5px;
+  --gap-10xs: 3px;
+  --gap-3xs: 10px;
+  --gap-33xl: 52px;
+}

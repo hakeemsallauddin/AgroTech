@@ -1,0 +1,571 @@
+.about-farming,
+.in-this-article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 800;
+}
+.in-this-article {
+  width: 99.2%;
+  top: 65px;
+  left: -0.04%;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  display: inline-block;
+}
+.next-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  
+}
+.next {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 120px;
+  left: 44.9px;
+  width: 44.9px;
+  height: 46.9px;
+  transform-origin: 0 0;
+}
+.next,
+.next-icon1,
+.next1 {
+  position: relative;
+  overflow: hidden;
+}
+.next-icon1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.next1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 144.3px;
+  left: 88.9px;
+  width: 44.9px;
+  height: 46.9px;
+  transform: rotate(-180deg);
+}
+.text-container {
+  flex: 1;
+  position: relative;
+  height: 192px;
+  overflow: hidden;
+}
+.images-1-icon {
+  position: absolute;
+  top: 0;
+  
+  width: 100%;
+  height: 100%;
+  
+}
+.image-container {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 20px 85px rgba(0, 0, 0, 0.25);
+  height: 350px;
+  overflow: hidden;
+}
+.text-container-parent {
+  position: absolute;
+  width: calc(100% - 62px);
+  top: 0;
+  right: 28.8px;
+  left: 33.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.home-corousel {
+  position: absolute;
+  width: calc(100% - 66px);
+  top: 150px;
+  right: 33px;
+  left: 33px;
+  height: 375px;
+}
+.frame-icon {
+  position: absolute;
+  top: 16.5px;
+  left: 29px;
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cheaper {
+  position: absolute;
+  top: 32px;
+  left: 120px;
+  font-weight: 800;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.trade-1-icon {
+  position: absolute;
+  top: 14px;
+  left: 280px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.affordable {
+  position: absolute;
+  top: 32px;
+  left: 376px;
+  font-weight: 800;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.vegetables-1-icon {
+  position: absolute;
+  top: 19px;
+  left: 577px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.farm-fresh {
+  position: absolute;
+  top: 32px;
+  left: 663px;
+  font-weight: 800;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.frame-icon1 {
+  top: 0;
+  left: 853px;
+  height: 88px;
+  overflow: hidden;
+}
+.frame,
+.frame-icon1,
+.secure {
+  position: absolute;
+  width: 70px;
+}
+.secure {
+  top: calc(50% - 13px);
+  right: 0;
+  font-weight: 800;
+  display: inline-block;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.frame {
+  top: 31px;
+  left: 959px;
+  height: 26px;
+  overflow: hidden;
+}
+.features,
+.frame-parent {
+  position: absolute;
+  overflow-x: auto;
+}
+.frame-parent {
+  top: calc(50% - 44px);
+  left: calc(50% - 529px);
+  width: 1065px;
+  height: 88px;
+}
+.features {
+  width: calc(100% - 386px);
+  top: 584px;
+  right: 193px;
+  left: 193px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 20px 85px rgba(0, 0, 0, 0.25);
+  height: 110px;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+}
+.farming-and-gardening-1,
+.fruits1,
+.milk-bottle,
+.plants,
+.rice,
+.vegetable {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 7px;
+  left: 48px;
+  width: 60px;
+  height: 60px;
+  background-image: url(./public/fruits@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.farming-and-gardening-1,
+.milk-bottle,
+.plants,
+.rice,
+.vegetable {
+  top: 9px;
+  left: 261px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/vegetable@3x.png);
+}
+.farming-and-gardening-1,
+.milk-bottle,
+.plants,
+.rice {
+  top: 11px;
+  left: 442px;
+  background-image: url(./public/plants@3x.png);
+}
+.farming-and-gardening-1,
+.milk-bottle,
+.rice {
+  top: 9px;
+  left: 649px;
+  background-image: url(./public/milkbottle@3x.png);
+}
+.farming-and-gardening-1,
+.rice {
+  top: 8px;
+  left: 878px;
+  width: 45px;
+  height: 45px;
+  background-image: url(./public/rice@3x.png);
+}
+.farming-and-gardening-1 {
+  top: 5px;
+  left: 1095px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/farmingandgardening-1@3x.png);
+}
+.fruits2,
+.vegetables1 {
+  position: absolute;
+  font-weight: 800;
+}
+.fruits2 {
+  bottom: 0;
+  left: 39px;
+  font-size: 27px;
+  color: var(--color-darkslategray);
+}
+.vegetables1 {
+  top: 70px;
+  left: 217px;
+}
+.dairy-products,
+.grains,
+.organic-manure,
+.plants1 {
+  position: absolute;
+  top: 69.5px;
+  left: 433px;
+  font-weight: 800;
+}
+.dairy-products,
+.grains,
+.organic-manure {
+  left: 602px;
+}
+.grains,
+.organic-manure {
+  top: 70px;
+  left: 865px;
+}
+.organic-manure {
+  top: 70.5px;
+  left: 1037px;
+}
+.fruits-parent,
+.nav-dock {
+  position: absolute;
+  overflow-x: auto;
+}
+.fruits-parent {
+  top: calc(50% - 53px);
+  left: calc(50% - 609.5px);
+  width: 1220px;
+  height: 104px;
+}
+.nav-dock {
+  height: 14.93%;
+  width: calc(100% - 125px);
+  top: 0;
+  right: 75px;
+  bottom: 85.07%;
+  left: 50px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 20px 85px rgba(0, 0, 0, 0.25);
+}
+.pngtreemango-5613038-1-icon {
+  position: absolute;
+  top: calc(50% - 75px);
+  left: calc(50% - 87px);
+  width: 175px;
+  height: 150px;
+  object-fit: cover;
+}
+.pngtreemango-5613038-1-wrapper {
+  position: absolute;
+  width: calc(100% - 25px);
+  top: 13px;
+  right: 12px;
+  left: 13px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(180deg, rgba(146, 162, 138, 0), #92a28a);
+  height: 170px;
+  overflow: hidden;
+}
+.mango {
+  top: 191px;
+  left: 17px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+.div,
+.mango,
+.view-details {
+  position: absolute;
+  font-weight: 800;
+}
+.div {
+  top: 195px;
+  right: 14px;
+  color: #d91d1d;
+  display: inline-block;
+  width: 65px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+.view-details {
+  top: calc(50% - 9px);
+  left: calc(50% - 46px);
+  font-size: 15px;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+}
+.details-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #bab7b7;
+  top: 230px;
+  left: calc(50% - 94.5px);
+  border-radius: var(--br-xl);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+  width: 190px;
+  height: 30px;
+}
+.details-btn,
+.prduct-container,
+.products {
+  position: absolute;
+  overflow: hidden;
+}
+.prduct-container {
+  top: 15px;
+  left: 15px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  width: 225px;
+  height: 275px;
+}
+.products {
+  height: 73.36%;
+  width: 100%;
+  top: 18.37%;
+  right: 0;
+  bottom: 8.27%;
+  left: 0;
+  font-size: var(--font-size-lg);
+}
+.about-us,
+.home1,
+.more1,
+.tab-nav-bar {
+  position: absolute;
+  font-size: var(--font-size-3xl);
+}
+.tab-nav-bar {
+  width: calc(100% - 116px);
+  top: 791px;
+  right: 58px;
+  left: 58px;
+  height: 871px;
+  color: var(--color-white);
+}
+.about-us,
+.home1,
+.more1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 18%;
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-darkseagreen);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home1 {
+  height: 54%;
+  left: 0;
+  width: 64px;
+}
+.about-us,
+.more1 {
+  left: 89px;
+}
+.more1 {
+  left: 215px;
+}
+.farmtech1 {
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: calc(50% - 111px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.profile-img {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 4px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/profile-img@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.profile-icon {
+  position: absolute;
+  top: calc(50% - 22.5px);
+  left: 6px;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+.your-profile {
+  position: absolute;
+  top: calc(50% - 13.5px);
+  left: 65px;
+}
+.profile-btn-hower-effect {
+  top: 19px;
+  left: calc(50% - 110px);
+  border-radius: var(--br-xs);
+  width: 220px;
+  height: 65px;
+}
+.profile-btn-hower-effect,
+.profile-icon1,
+.profile-parent {
+  position: absolute;
+  overflow: hidden;
+}
+.profile-icon1 {
+  top: calc(50% - 22.5px);
+  left: 6px;
+  width: 45px;
+  height: 45px;
+  display: none;
+}
+.profile-parent {
+  top: 96px;
+  left: calc(50% - 110px);
+  border-radius: var(--br-xs);
+  width: 220px;
+  height: 65px;
+}
+.logout-icon,
+.profile-btn {
+  position: absolute;
+  top: 106px;
+  left: 21px;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+.profile-btn {
+  top: 66px;
+  left: -166px;
+  border-radius: 25px;
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 24px 74px 30px rgba(0, 0, 0, 0.25);
+  width: 250px;
+  height: 175px;
+  display: none;
+}
+.profile-container {
+  position: absolute;
+  top: 0;
+  left: 1414px;
+  width: 78px;
+  height: 50px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.profile-container:active,
+.profile-container:active .profile-btn,
+.profile-container:hover .profile-btn {
+  display: flex;
+}
+.nav-bar1 {
+  position: absolute;
+  width: calc(100% - 48px);
+  top: 20px;
+  right: 24px;
+  left: 24px;
+  height: 55px;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  font-family: var(--font-anonymous-pro);
+}
+.home-page {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  height: 1779px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: 35px;
+  color: var(--color-darkseagreen);
+  font-family: var(--font-inter);
+}

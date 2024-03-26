@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./FarmersProfile.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anonymous Pro:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bangers:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Knewave:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="farmers-profile1">
+      <div class="farmer-home-nav2">
+        <button class="organic-manure3" id="organicManure">
+          Organic Manure
+        </button>
+        <button class="home11" id="home_btn">Home</button>
+        <div class="selected2">
+          <div class="profile2">Profile</div>
+          <img class="next-icon4" alt="" src="./public/next.svg" />
+        </div>
+        <button class="feedback2" id="feedback">Feedback</button>
+        <button class="logout-btn2">
+          <div class="log-out2">Log Out</div>
+        </button>
+      </div>
+      <div class="nav-container8">
+        <div class="nav-bar9">
+          <button class="home12" id="home">Home</button>
+          <b class="farmtech10">FARMTECH</b>
+        </div>
+      </div>
+      <button class="about-us12" id="about_us">About Us</button>
+      <div class="product-container2">
+        <div class="profile-">Profile :-</div>
+        <div class="name-1">Name -</div>
+        <div class="contact-details-">Contact details -</div>
+        <div class="product-container-inner"></div>
+        <button class="update-btn">
+          <div class="update-profile">Update Profile</div>
+        </button>
+        <input
+          class="input-filed-effect"
+          placeholder="First Name"
+          type="text"
+        />
+
+        <input class="last-name-sec" placeholder="Last Name" type="text" />
+
+        <input class="phone-no-sec" placeholder="Phone number" type="text" />
+
+        <input
+          class="email-address-sec"
+          placeholder="Email Address"
+          type="text"
+        />
+
+        <input class="state-sec" placeholder="Current State" type="text" />
+
+        <input class="pincode-sec" placeholder="Pincode" type="text" />
+
+        <input
+          class="full-address-sec"
+          placeholder="Enter full address"
+          type="text"
+        />
+      </div>
+    </div>
+
+    <script>
+      var organicManure = document.getElementById("organicManure");
+      if (organicManure) {
+        organicManure.addEventListener("click", function (e) {
+          window.location.href = "./FarmersOrganicManure.html";
+        });
+      }
+      
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html";
+        });
+      }
+      
+      var feedback = document.getElementById("feedback");
+      if (feedback) {
+        feedback.addEventListener("click", function (e) {
+          window.location.href = "./FarmersFeedbackForm.html";
+        });
+      }
+      
+      var home1 = document.getElementById("home_btn");
+      if (home1) {
+        home1.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html";
+        });
+      }
+      
+      var aboutUs1 = document.getElementById("about_us");
+      if (aboutUs1) {
+        aboutUs1.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
+        });
+      }
+      </script>
+  </body>
+</html>

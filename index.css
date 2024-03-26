@@ -1,0 +1,386 @@
+.email {
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-3xl);
+  background-color: var(--color-darkseagreen);
+  width: calc(100% - 75px);
+  top: 101px;
+  right: 38px;
+  left: 37px;
+  border-radius: var(--br-mini);
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.25);
+  height: 60px;
+  overflow: hidden;
+  padding: var(--padding-base) 79px var(--padding-mid);
+  box-sizing: border-box;
+}
+::placeholder{
+  color: white;
+  opacity: 1;
+}
+.email,
+.login,
+.password {
+  position: absolute;
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.password {
+  border: 0;
+  outline: 0;
+  font-size: var(--font-size-3xl);
+  background-color: var(--color-darkseagreen);
+  width: calc(100% - 75px);
+  top: 187px;
+  right: 38px;
+  left: 37px;
+  border-radius: var(--br-mini);
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.25);
+  height: 60px;
+  overflow: hidden;
+  padding: var(--padding-base) 55px var(--padding-mid);
+  box-sizing: border-box;
+}
+.login {
+  top: calc(50% - 12.5px);
+  left: calc(50% - 28px);
+  font-size: var(--font-size-xl);
+  text-align: left;
+}
+.login-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #f15c5c;
+  position: absolute;
+  top: 269px;
+  left: calc(50% - 62.5px);
+  border-radius: var(--br-xl);
+  box-shadow: 0 10px 45px rgba(0, 0, 0, 0.25);
+  width: 124px;
+  height: 39px;
+  overflow: hidden;
+}
+.login-btn:hover {
+  background-color: var(--color-login_hover);
+}
+.login-as-farmer,.login-as-customer {
+  position: absolute;
+  top: 43px;
+  left: calc(50% - 116.5px);
+  font-weight: 800;
+}
+.new-to-farmtech {
+  position: absolute;
+  width: calc(100% - 263px);
+  top: 329px;
+  left: 20px;
+  font-size: 17px;
+  font-weight: 500;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+.new-to-farmtech,
+.span {
+  color: var(--color-black);
+}
+.click-here-to {
+  color: #f35325;
+}
+.click-here-to:hover{
+  color: var(--color-login_hover);
+}
+.register {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  width: calc(100% - 216px);
+  top: 327px;
+  left: 191px;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  text-align: left;
+  display: inline-block;
+}
+.login-box {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 0 20px 75px 20px rgba(0, 0, 0, 0.25);
+  height: 429px;
+  overflow: hidden;
+}
+.frame-child {
+  width: 3px;
+  position: relative;
+  border-right: 3px solid var(--color-white);
+  box-sizing: border-box;
+  height: 458px;
+}
+.or-continue-with {
+  position: absolute;
+  top: 72px;
+  left: calc(50% - 102.5px);
+  font-weight: 800;
+}
+.login-as-farmerseller,.login-as-customer-btn {
+  position: absolute;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 107px);
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+  color: var(--color-gray);
+  text-align: center;
+}
+.crops-icon {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.login-as-farmerseller-parent ,.login-as-customer-parent{
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  width: calc(100% - 33px);
+  top: 148px;
+  right: 16px;
+  left: 17px;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+  height: 61px;
+  overflow: hidden;
+}
+.login-as-farmerseller-parent:hover {
+  background-color:var(--color-white_hover);
+}
+.group-icon {
+  position: absolute;
+  height: 49.18%;
+  width: 7.4%;
+  top: 24.59%;
+  right: 88.01%;
+  bottom: 26.23%;
+  left: 4.59%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.login-with-google1 {
+  position: absolute;
+  width: 80%;
+  top: calc(50% - 12.5px);
+  left: 15%;
+  font-size: var(--font-size-xl);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-gray);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.login-with-google {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  width: calc(100% - 33px);
+  top: 231px;
+  right: 16px;
+  left: 17px;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+  height: 61px;
+  overflow: hidden;
+}
+.login-with-google:hover {
+  background-color:var(--color-white_hover);
+}
+.microsoft-icon {
+  position: absolute;
+  width: 12.24%;
+  top: calc(50% - 24.5px);
+  right: 83.93%;
+  left: 3.83%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 48px;
+}
+.login-with-microsoft1 {
+  position: absolute;
+  width: 80%;
+  top: calc(50% - 12.5px);
+  left: 15%;
+  font-size: var(--font-size-xl);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.login-with-microsoft {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: absolute;
+  width: calc(100% - 33px);
+  top: 311px;
+  right: 16px;
+  left: 17px;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+  height: 61px;
+  overflow: hidden;
+}
+.login-with-microsoft:hover {
+  background-color: var(--color-white_hover);
+}
+.or-box {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  height: 429px;
+  overflow: hidden;
+  color: var(--color-white);
+}
+.login-box-parent {
+  position: absolute;
+  width: calc(100% - 105px);
+  top: 28px;
+  right: 55px;
+  left: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+.login-container {
+  top: 120px;
+  left: calc(50% - 530px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 20px 75px 20px transparent;
+  width: 1059px;
+  height: 511px;
+  overflow: hidden;
+}
+.profile,
+.home,
+.login-container {
+  position: absolute;
+}
+.profile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/gamer-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: none;
+}
+.home {
+  height: 54%;
+  left: 0;
+  width: 64px;
+}
+.more,
+.home,
+.about_us {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 18%;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-darkseagreen);
+  text-align: left;
+  display: none;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.about_us {
+  position: absolute;
+  left: 90px;
+}
+.more {
+  left: 244px;
+}
+.farmtech,
+.more {
+  position: absolute;
+}
+.more {
+  height: 54%;
+  top: 18%;
+  left: 342px;
+  font-weight: 800;
+  display: none;
+  width: 56px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.farmtech {
+  top: calc(50% - 24.5px);
+  left: calc(50% - 111px);
+  font-size: 50px;
+  display: flex;
+  font-family: var(--font-anonymous-pro);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-bar {
+  position: absolute;
+  width: calc(100% - 48px);
+  top: 20px;
+  right: 24px;
+  left: 24px;
+  height: 55px;
+  overflow: hidden;
+}
+.customer-login,
+.farmer-login,
+.nav-container {
+  width: 100%;
+  background-color: var(--color-darkslategray);
+  overflow: hidden;
+}
+.nav-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 75px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkseagreen);
+}
+.customer-login,.farmer-login {
+  position: relative;
+  height: 697px;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+  
+}

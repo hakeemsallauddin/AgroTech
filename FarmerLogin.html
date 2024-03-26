@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anonymous Pro:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="farmer-login">
+      <div class="login-container">
+        <div class="login-box-parent">
+          <div class="login-box">
+            <input
+              class="email"
+              id="email"
+              placeholder="Enter your email..."
+              type="email"
+            />
+
+            <input
+              class="password"
+              id="re"
+              placeholder="Enter password here..."
+              type="password"
+            />
+
+            <button class="login-btn" autofocus="{true}" id="loginBtn">
+              <div class="login">Login</div>
+            </button>
+            <div class="login-as-farmer">Login as Farmer</div>
+            <div class="new-to-farmtech">New to Farmtech ?</div>
+            <button class="register" id="register">
+              <span class="span"> </span>
+              <span class="click-here-to">Click here to register</span>
+            </button>
+          </div>
+          <div class="frame-child"></div>
+          <div class="or-box">
+            <div class="or-continue-with">or continue with</div>
+            <button class="login-as-customer-parent" id="frameButton">
+              <b class="login-as-customer-btn">Login as Customer</b>
+              <img class="crops-icon" alt="" src="./public/shopping.png" />
+            </button>
+            <button class="login-with-google">
+              <img class="group-icon" alt="" src="./public/group.svg" />
+
+              <b class="login-with-google1">Login with google account</b>
+            </button>
+            <button class="login-with-microsoft">
+              <img class="microsoft-icon" alt="" src="./public/microsoft.svg" />
+
+              <b class="login-with-microsoft1">Login with microsoft account</b>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="nav-container">
+        <div class="nav-bar">
+          <button class="profile" id="profile"></button>
+          <button class="home" id="home">Home</button>
+          <button class="about_us" id="about_us">About Us</button>
+          <button class="more" id="more">More</button>
+          <b class="farmtech">FARMTECH</b>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var loginBtn = document.getElementById("loginBtn");
+      if (loginBtn) {
+        loginBtn.addEventListener("click", function (e) {
+          window.location.href = "";
+        });
+      }
+      
+      var clickHereTo = document.getElementById("register");
+      if (clickHereTo) {
+        clickHereTo.addEventListener("click", function (e) {
+          window.location.href = "./farmerRegisteration";
+        });
+      }
+      var login_as_customer = document.getElementById("frameButton");
+      if (login_as_customer) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href="./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

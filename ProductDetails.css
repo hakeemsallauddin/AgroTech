@@ -1,0 +1,480 @@
+.farm-fresh1 {
+  position: absolute;
+  top: 24px;
+  left: 216px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner-image-child,
+.kiwi-icon {
+  position: absolute;
+  top: -2px;
+  left: -0.5px;
+  width: 730px;
+  height: 168.5px;
+}
+.kiwi-icon {
+  top: 88px;
+  left: 239px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.banana-icon {
+  top: 19px;
+  left: 24px;
+  width: 136.6px;
+  height: 136.6px;
+}
+.avacado-icon,
+.banana-icon,
+.pineapple-icon {
+  position: absolute;
+  overflow: hidden;
+  object-fit: contain;
+}
+.avacado-icon {
+  height: 47.77%;
+  width: 9.58%;
+  top: 71.08%;
+  right: 80.59%;
+  bottom: -18.86%;
+  left: 9.83%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.pineapple-icon {
+  top: 52px;
+  left: 137px;
+  width: 166.1px;
+  height: 166.1px;
+}
+.banner-image-item {
+  position: absolute;
+  top: -29px;
+  left: 650px;
+  border-radius: 50%;
+  background-color: #c0f9cf;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 146px;
+  height: 138px;
+}
+.fruits3 {
+  position: absolute;
+  top: 39px;
+  left: 675px;
+  font-size: 32px;
+  font-family: var(--font-knewave);
+  color: var(--color-crimson);
+  display: inline-block;
+  width: 92px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.apple-icon,
+.orange-slice-icon {
+  position: absolute;
+  overflow: hidden;
+  object-fit: contain;
+}
+.apple-icon {
+  height: 51.63%;
+  width: 10.95%;
+  top: 62.65%;
+  right: 73.73%;
+  bottom: -14.28%;
+  left: 15.33%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.orange-slice-icon {
+  top: 49px;
+  left: 405px;
+  width: 66.8px;
+  height: 61.8px;
+}
+.coconut-icon,
+.grapes-icon,
+.orange-icon {
+  position: absolute;
+  top: 87px;
+  left: 708px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.grapes-icon,
+.orange-icon {
+  top: -10px;
+  left: -17px;
+}
+.orange-icon {
+  top: 87.9px;
+  left: 32.9px;
+  width: 85.7px;
+  height: 85.7px;
+  object-fit: contain;
+}
+.watermelon-icon {
+  position: absolute;
+  top: 75px;
+  left: -77.9px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.cherry-icon {
+  position: absolute;
+  top: -5px;
+  left: 736px;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+.lemon-icon {
+  top: 112px;
+  left: 630px;
+  width: 100px;
+  height: 100px;
+}
+.banner-image,
+.lemon-icon,
+.mango-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.mango-icon {
+  top: 87.7px;
+  left: 337.7px;
+  width: 136.6px;
+  height: 136.6px;
+  object-fit: contain;
+}
+.banner-image {
+  top: 105px;
+  left: 109px;
+  border-radius: var(--br-xl);
+  background-color: #63d381;
+  box-shadow: 0 20px 75px 20px rgba(0, 0, 0, 0.25);
+  width: 783px;
+  height: 166px;
+  font-family: var(--font-bangers);
+}
+.about-us1,
+.home2,
+.more2,
+.profile-img1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.profile-img1 {
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/profile-img@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.about-us1,
+.home2,
+.more2 {
+  top: 18%;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-darkseagreen);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home2 {
+  height: 54%;
+  left: 0;
+  width: 64px;
+}
+.about-us1,
+.more2 {
+  left: 89px;
+}
+.more2 {
+  left: 215px;
+}
+.farmtech2 {
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: calc(50% - 111px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-bar2,
+.nav-container1 {
+  position: absolute;
+  overflow: hidden;
+}
+.nav-bar2 {
+  width: calc(100% - 48px);
+  top: 20px;
+  right: 24px;
+  left: 24px;
+  height: 55px;
+}
+.nav-container1 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  height: 75px;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkseagreen);
+  font-family: var(--font-anonymous-pro);
+}
+.mango-icon1 {
+  width: 225px;
+  position: relative;
+  height: 200px;
+  object-fit: cover;
+}
+.image-container1 {
+  width: calc(100% - 498px);
+  top: calc(50% - 136.5px);
+  right: 456px;
+  left: 42px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(220.33deg, #9eaf94, #495543);
+  box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.25);
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.image-container1,
+.share,
+.vector-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon {
+  height: 83.44%;
+  width: 83.44%;
+  top: 8.13%;
+  right: 8.13%;
+  bottom: 8.44%;
+  left: 8.44%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.share {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 33px;
+  left: 716px;
+  width: 32px;
+  height: 32px;
+}
+.mango1,
+.price- {
+  position: absolute;
+  font-weight: 800;
+}
+.mango1 {
+  top: 30px;
+  left: 373px;
+  font-size: 33px;
+}
+.price- {
+  top: 83px;
+  left: 375px;
+}
+.description-,
+.div1,
+.qty-,
+.rating- {
+  position: absolute;
+  top: 121px;
+  left: 377px;
+  font-weight: 800;
+}
+.description-,
+.div1,
+.rating- {
+  top: 159px;
+}
+.description-,
+.div1 {
+  top: 198px;
+}
+.div1 {
+  top: 87px;
+  left: 478px;
+  font-size: var(--font-size-5xl);
+}
+.star-icon {
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.heart-icon,
+.rating-bar,
+.star-icon1,
+.star-icon2,
+.star-icon3,
+.star-icon4 {
+  position: absolute;
+  top: 6px;
+  left: 34px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.heart-icon,
+.rating-bar,
+.star-icon2,
+.star-icon3,
+.star-icon4 {
+  left: 64px;
+}
+.heart-icon,
+.rating-bar,
+.star-icon3,
+.star-icon4 {
+  left: 94px;
+}
+.heart-icon,
+.rating-bar,
+.star-icon4 {
+  left: 124px;
+}
+.heart-icon,
+.rating-bar {
+  top: 157px;
+  left: 514px;
+  width: 151px;
+  height: 37px;
+}
+.heart-icon {
+  top: 33px;
+  left: 665px;
+  width: 32px;
+  height: 32px;
+}
+.order-now {
+  position: absolute;
+  top: calc(50% - 15.5px);
+  left: calc(50% - 65.5px);
+  font-size: var(--font-size-6xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.order-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato-100);
+  position: absolute;
+  top: 258px;
+  left: 375px;
+  border-radius: var(--br-6xl);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  width: 357px;
+  height: 55px;
+  overflow: hidden;
+}
+.about-seller-,
+.product-det {
+  position: absolute;
+  font-size: var(--font-size-9xl);
+}
+.product-det {
+  top: 306px;
+  left: 109px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 20px 75px 20px rgba(0, 0, 0, 0.25);
+  width: 774px;
+  height: 339px;
+  overflow: hidden;
+  color: var(--color-white);
+}
+.about-seller- {
+  top: 28px;
+  left: 23px;
+}
+.location-,
+.name-,
+.phone-number- {
+  position: absolute;
+  top: 84px;
+  left: 23px;
+}
+.location-,
+.phone-number- {
+  top: 124px;
+}
+.location- {
+  top: 159px;
+}
+.div2,
+.xyz {
+  position: absolute;
+  font-weight: 600;
+}
+.xyz {
+  top: 84px;
+  left: 122px;
+  font-size: var(--font-size-3xl);
+}
+.div2 {
+  top: 125px;
+  left: 203px;
+  font-size: 21px;
+}
+.map-icon,
+.seller-det {
+  position: absolute;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+}
+.map-icon {
+  bottom: 20px;
+  left: calc(50% - 190px);
+  width: 380px;
+  height: 241px;
+  object-fit: cover;
+}
+.seller-det {
+  top: 158px;
+  right: 120px;
+  background-color: #cad8d6;
+  box-shadow: 0 15px 60px 15px rgba(0, 0, 0, 0.25);
+  width: 404px;
+  height: 487px;
+  font-size: var(--font-size-4xl);
+}
+.product-details {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  height: 697px;
+  text-align: left;
+  font-size: 80px;
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}

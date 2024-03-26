@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./FarmersOrganicManure.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anonymous Pro:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bangers:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Knewave:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="farmers-organic-manure">
+      <div class="nav-container7">
+        <div class="nav-bar8">
+          <button class="home9" id="home">Home</button>
+
+          <b class="farmtech9">FARMTECH</b>
+        </div>
+      </div>
+      <button class="about-us9" id="about-us">About Us</button>
+      <div class="farmer-home-nav1">
+        <div class="home10" id="homeText">Home</div>
+        <div class="profile1" id="profileText">Profile</div>
+        <div class="feedback1" id="feedbackText">Feedback</div>
+        <div class="selected1">
+          <div class="organic-manure2">Organic Manure</div>
+          <img class="next-icon3" alt="" src="./public/next.svg" />
+        </div>
+        <div class="logout-btn1">
+          <div class="log-out1">Log Out</div>
+        </div>
+      </div>
+      <div class="product-container1">
+        <div class="buy-organic-manure">Buy Organic Manure :-</div>
+        <div class="product-container-item"></div>
+        <div class="product2">
+          <div class="img-container2">
+            <img
+              class="kisspng-fertilisers-agricultur-icon"
+              alt=""
+              src="./public/kisspngfertilisersagriculturemanuresuperphosphateorgaagriculturalcenterpanonkacom5d16fc20c0c8c2-1@2x.png"
+            />
+          </div>
+          <div class="fertilizers">Fertilizers</div>
+          <div class="price-3">Price-</div>
+          <div class="qty-3">Qty -</div>
+          <div class="div6">₹000/-</div>
+          <button class="publish-btn-effect3">
+            <div class="publish-product4">Buy</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html";
+        });
+      }
+      
+      var aboutUs1 = document.getElementById("about-us");
+      if (aboutUs1) {
+        aboutUs1.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
+        });
+      }
+      
+      var homeText = document.getElementById("homeText");
+      if (homeText) {
+        homeText.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html";
+        });
+      }
+      
+      var profileText = document.getElementById("profileText");
+      if (profileText) {
+        profileText.addEventListener("click", function (e) {
+          window.location.href = "./FarmersProfile.html";
+        });
+      }
+      
+      var feedbackText = document.getElementById("feedbackText");
+      if (feedbackText) {
+        feedbackText.addEventListener("click", function (e) {
+          window.location.href = "./FarmersFeedbackForm.html";
+        });
+      }
+      </script>
+  </body>
+</html>

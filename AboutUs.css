@@ -1,0 +1,587 @@
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+  position: absolute;
+  top: 1311px;
+  left: calc(50% + 445px);
+  border-radius: var(--br-89xl);
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.icon2,
+.icon3,
+.icon4 {
+  left: calc(50% + 185px);
+}
+.icon2,
+.icon3 {
+  left: calc(50% - 75px);
+}
+.icon2 {
+  left: calc(50% - 335px);
+}
+.connecting-farmers-and {
+  position: absolute;
+  top: 258px;
+  left: 95px;
+  font-size: 42px;
+  font-weight: 800;
+  display: inline-block;
+  width: 604px;
+}
+.discover-local-produce {
+  position: absolute;
+  top: 426px;
+  left: 98px;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  opacity: 0.7;
+}
+.image-1-1 {
+  position: absolute;
+  top: 188px;
+  right: 115px;
+  width: 324px;
+  height: 324px;
+  object-fit: cover;
+}
+.community-icon,
+.innovation-icon {
+  position: absolute;
+  top: calc(50% - 32.5px);
+  left: 38px;
+  width: 65px;
+  height: 65px;
+  overflow: hidden;
+}
+.innovation-icon {
+  left: 252px;
+}
+.community,
+.innovation,
+.quality,
+.sustainability {
+  position: absolute;
+  top: calc(50% - 11.5px);
+  left: 113px;
+}
+.innovation,
+.quality,
+.sustainability {
+  left: 327px;
+}
+.quality,
+.sustainability {
+  left: 522px;
+}
+.quality {
+  top: calc(50% - 10.5px);
+  left: 757px;
+}
+.quality-icon {
+  top: calc(50% - 32.5px);
+  left: 682px;
+  width: 65px;
+  height: 65px;
+}
+.our-values-box,
+.quality-icon,
+.water-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.water-icon {
+  top: calc(50% - 27.5px);
+  left: 456px;
+  width: 55px;
+  height: 55px;
+}
+.our-values-box {
+  top: 572px;
+  left: calc(50% - 433px);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 10px 35px 10px rgba(0, 0, 0, 0.25);
+  width: 867px;
+  height: 125px;
+  font-size: var(--font-size-xl);
+}
+.image-1-icon {
+  position: absolute;
+  top: 793px;
+  left: 48px;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+.our-mission,
+.our-team {
+  position: absolute;
+  font-size: var(--font-size-21xl);
+}
+.our-mission {
+  top: 820px;
+  right: 713px;
+}
+.our-team {
+  top: 1198px;
+  left: 101px;
+}
+.at-farmtech-our {
+  margin: 0;
+}
+.at-farmtech-our-container {
+  position: absolute;
+  top: 894px;
+  right: 101px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 847px;
+}
+.icon1 {
+  position: absolute;
+  top: 1311px;
+  left: calc(50% - 595px);
+  border-radius: var(--br-89xl);
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.chindri-chakri,
+.pardha-venkat-sai,
+.salauddin {
+  position: absolute;
+  top: 1498px;
+  left: calc(50% - 631px);
+}
+.chindri-chakri,
+.salauddin {
+  left: calc(50% - 348px);
+}
+.salauddin {
+  left: calc(50% - 61px);
+}
+.bhanu-prasad,
+.srinivasa-praneeth {
+  position: absolute;
+  top: 1498px;
+  left: calc(50% + 176px);
+}
+.srinivasa-praneeth {
+  left: calc(50% + 405px);
+}
+.get-started {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 53px);
+  font-size: var(--font-size-lgi);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.get-started-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato-100);
+  position: absolute;
+  top: 244px;
+  left: 35px;
+  border-radius: var(--br-6xl);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  height: 52px;
+  overflow: hidden;
+}
+.join-farmtech-today,
+.start-connecting-with {
+  position: absolute;
+  left: 35px;
+  display: inline-block;
+}
+.join-farmtech-today {
+  top: 65px;
+  font-weight: 800;
+  white-space: pre-wrap;
+  width: 295px;
+}
+.start-connecting-with {
+  top: 169px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  width: 325px;
+}
+.image-icon {
+  position: absolute;
+  top: 0;
+  left: 298px;
+  width: 550px;
+  height: 434.2px;
+  overflow: hidden;
+}
+.about-farmtech1,
+.join-us-container {
+  position: absolute;
+  font-size: var(--font-size-16xl);
+}
+.join-us-container {
+  top: 1646px;
+  left: 130px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 10px 45px 15px rgba(0, 0, 0, 0.25);
+  width: 806px;
+  height: 375px;
+  overflow: hidden;
+}
+.about-farmtech1 {
+  top: 20px;
+  left: 26px;
+  font-weight: 800;
+  display: inline-block;
+  width: 295px;
+}
+.phone {
+  top: 83px;
+  left: 54px;
+}
+.e-mail-id,
+.location,
+.phone {
+  position: absolute;
+  font-weight: 800;
+}
+.location {
+  top: 177px;
+  left: 54px;
+}
+.e-mail-id {
+  top: 82px;
+  right: 109px;
+}
+.connect-with-us {
+  top: 175px;
+  right: 52px;
+}
+.connect-with-us,
+.div3,
+.infofarmtechco {
+  position: absolute;
+  font-weight: 800;
+}
+.div3 {
+  top: 115px;
+  left: 35px;
+}
+.infofarmtechco {
+  top: 128px;
+  right: 66px;
+}
+.farmtech-headquaters-xyz-container {
+  position: absolute;
+  top: 202px;
+  left: 35px;
+  font-weight: 800;
+}
+.phone-icon {
+  top: 81px;
+  left: 26px;
+  width: 20px;
+  height: 20px;
+}
+.e-mail-icon,
+.location-icon,
+.phone-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.e-mail-icon {
+  top: 81px;
+  right: 182px;
+  width: 20px;
+  height: 20px;
+}
+.location-icon {
+  top: 173px;
+  left: 26px;
+  width: 25px;
+  height: 25px;
+}
+.icon-share-1 {
+  position: absolute;
+  top: 173px;
+  right: 184px;
+  width: 18px;
+  height: 20px;
+  object-fit: cover;
+}
+.facebook-icon,
+.twitter-icon {
+  top: 204px;
+  width: 30px;
+  height: 30px;
+}
+.facebook-icon {
+  position: absolute;
+  right: 177px;
+  overflow: hidden;
+}
+.twitter-icon {
+  right: 134px;
+}
+.about-farmtech,
+.linkedin-icon,
+.twitter-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.linkedin-icon {
+  top: 204px;
+  right: 91px;
+  width: 30px;
+  height: 30px;
+}
+.about-farmtech {
+  top: 2064px;
+  left: 130px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 10px 45px 15px rgba(0, 0, 0, 0.25);
+  width: 421px;
+  height: 280px;
+  font-size: var(--font-size-mini);
+}
+.contact-us,
+.email1,
+.first-name {
+  position: absolute;
+  left: 20px;
+  font-weight: 800;
+}
+.contact-us {
+  top: 20px;
+  font-size: var(--font-size-6xl);
+}
+.email1,
+.first-name {
+  top: 92px;
+}
+.email1 {
+  top: 195px;
+}
+.your-message {
+  top: 285px;
+  left: 20px;
+}
+.contactfarmtechcom,
+.last-name,
+.your-message {
+  position: absolute;
+  font-weight: 800;
+}
+.contactfarmtechcom {
+  top: 229px;
+  left: 20px;
+  font-size: var(--font-size-lg);
+  text-decoration: underline;
+}
+.last-name {
+  top: 92px;
+  left: 210px;
+}
+.first-name-input,
+.last-name-input {
+  border: 0;
+  outline: 0;
+  display: block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-lg);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 123px;
+  left: 19px;
+  border-radius: var(--br-3xs);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  width: 158px;
+  height: 40px;
+  overflow: hidden;
+  padding: var(--padding-5xs) 30px var(--padding-3xs);
+  box-sizing: border-box;
+  font-weight: 700;
+  color: var(--color-dimgray);
+}
+.last-name-input {
+  left: 210px;
+  padding: var(--padding-5xs) 31px var(--padding-3xs);
+}
+.contact-box-child,
+.contact-box-item {
+  position: absolute;
+  top: 179.5px;
+  left: calc(50% - 177.5px);
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 356px;
+  height: 1px;
+}
+.contact-box-item {
+  top: 265.5px;
+}
+.message-box,
+.send-message {
+  position: absolute;
+  font-family: var(--font-inter);
+}
+.message-box {
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-size: var(--font-size-mini);
+  background-color: var(--color-white);
+  top: 321px;
+  left: calc(50% - 175px);
+  border-radius: var(--br-mini);
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.25);
+  width: 350px;
+  height: 263px;
+  overflow: hidden;
+  padding: 12px 14px 233px;
+  box-sizing: border-box;
+  color: var(--color-gray);
+}
+.send-message {
+  top: calc(50% - 12px);
+  left: calc(50% - 74.5px);
+  font-size: var(--font-size-lgi);
+  font-weight: 800;
+  color: var(--color-white);
+  text-align: left;
+}
+.send-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato-100);
+  position: absolute;
+  top: 626px;
+  left: calc(50% - 123px);
+  border-radius: var(--br-6xl);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  width: 247px;
+  height: 52px;
+  overflow: hidden;
+}
+.contact-box,
+.location-icon1 {
+  position: absolute;
+  border-radius: var(--br-xl);
+  overflow: hidden;
+}
+.contact-box {
+  top: 1646px;
+  right: 130px;
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 10px 45px 15px rgba(0, 0, 0, 0.25);
+  width: 390px;
+  height: 705px;
+  font-size: var(--font-size-xl);
+}
+.location-icon1 {
+  top: 2064px;
+  left: 564px;
+  width: 372px;
+  height: 280px;
+  object-fit: cover;
+}
+.about-us3,
+.home3,
+.more3,
+.profile-img2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+.profile-img2 {
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/profile-img@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.about-us3,
+.home3,
+.more3 {
+  top: 18%;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-darkseagreen);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home3 {
+  height: 54%;
+  left: 0;
+  width: 64px;
+}
+.about-us3,
+.more3 {
+  left: 89px;
+}
+.more3 {
+  left: 215px;
+}
+.farmtech4 {
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: calc(50% - 111px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-bar3 {
+  position: absolute;
+  width: calc(100% - 48px);
+  top: 20px;
+  right: 24px;
+  left: 24px;
+  height: 55px;
+  overflow: hidden;
+}
+.about-us2,
+.nav-container2 {
+  width: 100%;
+  background-color: var(--color-darkslategray);
+}
+.nav-container2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 75px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkseagreen);
+  font-family: var(--font-anonymous-pro);
+}
+.about-us2 {
+  position: relative;
+  height: 697px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

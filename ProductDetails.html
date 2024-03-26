@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./ProductDetails.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anonymous Pro:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bangers:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Knewave:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="product-details">
+      <div class="banner-image">
+        <div class="farm-fresh1">Farm - Fresh</div>
+        <img class="banner-image-child" alt="" src="./public/vector-1.svg" />
+
+        <img class="kiwi-icon" alt="" src="./public/kiwi.svg" />
+
+        <img class="banana-icon" alt="" src="./public/banana@2x.png" />
+
+        <img class="avacado-icon" alt="" src="./public/avacado@2x.png" />
+
+        <img class="pineapple-icon" alt="" src="./public/pineapple@2x.png" />
+
+        <div class="banner-image-item"></div>
+        <div class="fruits3">Fruits</div>
+        <img class="apple-icon" alt="" src="./public/apple@2x.png" />
+
+        <img
+          class="orange-slice-icon"
+          alt=""
+          src="./public/orange-slice@2x.png"
+        />
+
+        <img class="coconut-icon" alt="" src="./public/coconut.svg" />
+
+        <img class="grapes-icon" alt="" src="./public/grapes.svg" />
+
+        <img class="orange-icon" alt="" src="./public/orange@2x.png" />
+
+        <img class="watermelon-icon" alt="" src="./public/watermelon@2x.png" />
+
+        <img class="cherry-icon" alt="" src="./public/cherry.svg" />
+
+        <img class="lemon-icon" alt="" src="./public/lemon.svg" />
+
+        <img class="mango-icon" alt="" src="./public/mango@2x.png" />
+      </div>
+      <div class="nav-container1">
+        <div class="nav-bar2">
+          <button class="profile-img1" id="profile"></button>
+          <button class="home2" id="home">Home</button>
+          <button class="about-us1" id="vegetables">About Us</button>
+          <button class="more2" id="fruits">More</button>
+          <b class="farmtech2">FARMTECH</b>
+        </div>
+      </div>
+      <div class="product-det">
+        <div class="image-container1">
+          <img class="mango-icon1" alt="" src="./public/mango@2x.png" />
+        </div>
+        <button class="share">
+          <img class="vector-icon" alt="" src="./public/vector.svg" />
+        </button>
+        <div class="mango1">Mango</div>
+        <div class="price-">Price-</div>
+        <div class="qty-">Qty -</div>
+        <div class="rating-">Rating -</div>
+        <div class="description-">Description-</div>
+        <div class="div1">₹000/-</div>
+        <div class="rating-bar">
+          <img class="star-icon" alt="" src="./public/star.svg" />
+
+          <img class="star-icon1" alt="" src="./public/star.svg" />
+
+          <img class="star-icon2" alt="" src="./public/star.svg" />
+
+          <img class="star-icon3" alt="" src="./public/star.svg" />
+
+          <img class="star-icon4" alt="" src="./public/star.svg" />
+        </div>
+        <img class="heart-icon" alt="" src="./public/heart.svg" />
+
+        <button class="order-btn">
+          <div class="order-now">Order Now</div>
+        </button>
+      </div>
+      <div class="seller-det">
+        <b class="about-seller-">About Seller-</b>
+        <b class="name-">Name- </b>
+        <b class="phone-number-">Phone number-</b>
+        <b class="location-">Location - </b>
+        <div class="xyz">XYZ</div>
+        <div class="div2">+910000000000</div>
+        <img class="map-icon" alt="" src="./public/map@2x.png" />
+      </div>
+    </div>
+
+    <script>
+      var home = document.getElementById("home");
+      if (home) {
+        home.addEventListener("click", function (e) {
+          window.location.href = "./HomePage.html";
+        });
+      }
+      
+      var aboutUs = document.getElementById("vegetables");
+      if (aboutUs) {
+        aboutUs.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html";
+        });
+      }
+      </script>
+  </body>
+</html>

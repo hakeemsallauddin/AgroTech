@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./FarmersHomePage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Anonymous Pro:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bangers:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Knewave:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Istok Web:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="farmers-home-page">
+      <div class="nav-container6">
+        <div class="nav-bar7">  
+          <button class="home7" id="home">Home</button>
+          <b class="farmtech8">FARMTECH</b>
+        </div>
+      </div>
+      <button class="about-us8" id="about-us">About Us</button>
+      <div class="farmer-home-nav">
+        <div class="selected" id="selectedContainer">
+          <div class="home8">Home</div>
+          <img class="next-icon2" alt="" src="./public/next.svg" />
+        </div>
+        <button class="organic-manure1" id="organicManure">
+          Organic Manure
+        </button>
+        <button class="profile" id="profile">Profile</button>
+        <button class="feedback" id="feedback">Feedback</button>
+        <button class="logout-btn">
+          <div class="log-out">Log Out</div>
+        </button>
+      </div>
+      <div class="product-container">
+        <div class="your-products">Your Product’s</div>
+        <div class="product-container-child"></div>
+        <div class="tab-nav">
+          <div class="product">
+            <div class="img-container">
+              <img
+                class="pngtreemango-5613038-1-icon1"
+                alt=""
+                src="./public/pngtreemango-5613038-1@2x.png"
+              />
+            </div>
+            <div class="mango2">Mango</div>
+            <div class="price-1">Price-</div>
+            <div class="qty-1">Qty -</div>
+            <div class="div4">₹000/-</div>
+            <button class="delete" id="delete">
+              <img class="vector-icon1" alt="" src="./public/delete_btn.svg" />
+            </button>
+            <button class="edit">
+              <img class="vector-icon2" alt="" src="./public/edit_btn.svg" />
+            </button>
+          </div>
+          <div class="product1">
+            <div class="img-container">
+              <img
+                class="isometric-plant-3d-rendering-o-icon"
+                alt=""
+                src="./public/isometricplant3drenderingontransparentbackgroundpng-1@2x.png"
+              />
+            </div>
+            <div class="mango2">Plants</div>
+            <div class="price-1">Price-</div>
+            <div class="qty-1">Qty -</div>
+            <div class="div4">₹000/-</div>
+            <button class="delete" id="delete1">
+              <img class="vector-icon1" alt="" src="./public/delete_btn.svg" />
+            </button>
+            <button class="edit">
+              <img class="vector-icon2" alt="" src="./public/edit_btn.svg" />
+            </button>
+          </div>
+          <div class="tab-nav-bar1">
+            <button class="btn-efftect">
+              <div class="all">Crops</div>
+            </button>
+            <div class="btn-efftect1">
+              <div class="all1">All</div>
+            </div>
+            <button class="btn-efftect2">
+              <div class="all">Fruits</div>
+            </button>
+            <button class="btn-efftect3">
+              <div class="all3">Grains</div>
+            </button>
+            <button class="btn-efftect4">
+              <div class="all4">Plants</div>
+            </button>
+            <button class="btn-efftect5">
+              <div class="all5">Dairy</div>
+            </button>
+            <button class="btn-efftect6">
+              <div class="all6">Organic</div>
+            </button>
+          </div>
+        </div>
+        <button class="sell-btn" id="sellBtn">
+          <div class="publish-btn-effect1">
+            <div class="publish-product2">Publish Product</div>
+          </div>
+          <div class="sell-product">Sell Product</div>
+          <img class="add-to-cart" alt="" src="./public/add-to-cart.svg" />
+        </button>
+      </div>
+    </div>
+
+    <div id="removeProductPopup" class="popup-overlay" style="display: none">
+      <div class="remove-product-popup">
+        <img class="remove-icon" alt="" src="./public/remove.svg" />
+
+        <b class="remove-product">Remove product</b>
+        <img
+          class="close-icon"
+          alt=""
+          src="./public/close.svg"
+          id="popupcloseIcon"
+        />
+
+        <b class="if-you-remove"
+          >If you remove the product the customer’s will not be able to see the
+          product to buy. So, are you sure you want to remove the product?</b
+        >
+        <div class="no-bt" id="popupnoBtContainer">
+          <b class="no-dont-remove">No don’t remove</b>
+        </div>
+        <div class="tes-btn" id="popuptesBtnContainer">
+          <b class="yes-remove-the">Yes remove the product</b>
+        </div>
+      </div>
+    </div>
+
+    <div id="sellProductsPopup" class="popup-overlay" style="display: none">
+      <div class="sell-products">
+        <img
+          class="close-icon1"
+          alt=""
+          src="./public/close.svg"
+          id="popupcloseIcon"
+        />
+
+        <b class="sell-products1">Sell Products :</b>
+        <b class="product-name-">Product name -</b>
+        <b class="product-type-">Product Type -</b>
+        <b class="location-2">Location -</b>
+        <b class="set-your-price">Set your price -</b>
+        <b class="price-set-by">*Price set by government ₹000 </b>
+        <div class="upload-image-here">Upload image here :-</div>
+        <button class="upload-btn-effect">
+          <img class="upload-icon" alt="" src="./public/upload.svg" />
+        </button>
+        <button class="publish-btn-effect2" id="popuppublishBtnEffect">
+          <div class="publish-product3">Publish Product</div>
+        </button>
+        <input class="product-name" placeholder="Porduct Name" type="text" />
+
+        <select class="product-type" required="{true}"></select>
+        <input
+          class="location1"
+          placeholder="Enter your fam's location here..."
+          type="text"
+        />
+
+        <input class="price" placeholder="₹000/-" type="number" />
+      </div>
+    </div>
+
+    <script>
+      var popupcloseIcon = document.getElementById("popupcloseIcon");
+      if(popupcloseIcon) {
+        popupcloseIcon.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html"
+        });
+      }
+
+      var popupnoBtContainer = document.getElementById("popupnoBtContainer");
+      if(popupnoBtContainer) {
+        popupnoBtContainer.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html"
+        });
+      }
+
+      var popuptesBtnContainer = document.getElementById("popuptesBtnContainer");
+      if(popuptesBtnContainer) {
+        popuptesBtnContainer.addEventListener("click", function (e) {
+          // Please sync "farmers home page after removing" to the project
+        });
+      }
+
+      var popupcloseIcon = document.getElementById("popupcloseIcon");
+      if(popupcloseIcon) {
+        popupcloseIcon.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html"
+        });
+      }
+
+      var popuppublishBtnEffect = document.getElementById("popuppublishBtnEffect");
+      if(popuppublishBtnEffect) {
+        popuppublishBtnEffect.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html"
+        });
+      }
+
+      var aboutUs1 = document.getElementById("about-us");
+      if(aboutUs1) {
+        aboutUs1.addEventListener("click", function (e) {
+          window.location.href = "./AboutUs.html"
+        });
+      }
+
+      var selectedContainer = document.getElementById("selectedContainer");
+      if(selectedContainer) {
+        selectedContainer.addEventListener("click", function (e) {
+          window.location.href = "FarmersHomePage.html"
+        });
+      }
+
+      var organicManure = document.getElementById("organicManure");
+      if(organicManure) {
+        organicManure.addEventListener("click", function (e) {
+          window.location.href = "./FarmersOrganicManure.html"
+        });
+      }
+
+      var profile = document.getElementById("profile");
+      if(profile) {
+        profile.addEventListener("click", function (e) {
+          window.location.href = "./FarmersProfile.html"
+        });
+      }
+
+      var feedback = document.getElementById("feedback");
+      if(feedback) {
+        feedback.addEventListener("click", function (e) {
+          window.location.href = "./FarmersFeedbackForm.html"
+        });
+      }
+
+      var remove = document.getElementById("delete");
+      if(remove) {
+        remove.addEventListener("click", function () {
+          var popup = document.getElementById("removeProductPopup");
+          if(!popup) return;
+          var popupStyle = popup.style;
+          if(popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+           popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+
+          var onClick = popup.onClick || function(e) {
+            if(e.target === popup && popup.hasAttribute("closable")) {
+              popupStyle.display = "none";
+            }
+          };
+          popup.addEventListener("click", onClick);
+        });
+      }
+
+      var delete1 = document.getElementById("delete1");
+      if(delete1) {
+        delete1.addEventListener("click", function (e) {
+          // Please sync "product remove effect" to the project
+        });
+      }
+
+      var sellBtn = document.getElementById("sellBtn");
+      if(sellBtn) {
+        sellBtn.addEventListener("click", function () {
+          var popup = document.getElementById("sellProductsPopup");
+          if(!popup) return;
+          var popupStyle = popup.style;
+          if(popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+           popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+
+          var onClick = popup.onClick || function(e) {
+            if(e.target === popup && popup.hasAttribute("closable")) {
+              popupStyle.display = "none";
+            }
+          };
+          popup.addEventListener("click", onClick);
+        });
+      }
+    </script>
+  </body>
+</html>

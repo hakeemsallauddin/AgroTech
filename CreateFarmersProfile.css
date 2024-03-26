@@ -1,0 +1,187 @@
+.about-us6,
+.home6,
+.more6,
+.profile-img5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  display: none;
+}
+.profile-img5 {
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url(./public/gamer-1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.about-us6,
+.home6,
+.more6 {
+  top: 18%;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-darkseagreen);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home6 {
+  height: 54%;
+  left: 0;
+  width: 64px;
+}
+.about-us6,
+.more6 {
+  left: 89px;
+}
+.more6 {
+  left: 215px;
+}
+.farmtech7 {
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: calc(50% - 111px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-bar6,
+.nav-container5 {
+  position: absolute;
+  overflow: hidden;
+}
+.nav-bar6 {
+  width: calc(100% - 48px);
+  top: 20px;
+  right: 24px;
+  left: 24px;
+  height: 55px;
+}
+.nav-container5 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  height: 75px;
+}
+.location,
+.name,
+.phone_number {
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-xl);
+  background-color: var(--color-white);
+  position: absolute;
+  width: calc(100% - 77px);
+  top: 132px;
+  right: 42px;
+  left: 35px;
+  border-radius: var(--br-mini);
+  box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.25);
+  height: 61px;
+  overflow: hidden;
+  padding: var(--padding-lg) 141px var(--padding-lgi);
+  box-sizing: border-box;
+  color: var(--color-darkslategray-100);
+}
+.location,
+.phone_number {
+  top: 250px;
+  padding: var(--padding-lg) 124px var(--padding-lgi);
+}
+.location {
+  top: 368px;
+  padding: var(--padding-lg) 130px var(--padding-lgi);
+}
+.location-1,
+.phone-no-,
+.your-name- {
+  position: absolute;
+  top: 90px;
+  left: 42px;
+  font-weight: 800;
+}
+.location-1,
+.phone-no- {
+  top: 208px;
+}
+.location-1 {
+  top: 326px;
+}
+.blank-line1 {
+  margin: 0;
+}
+.text1 {
+  position: absolute;
+  top: 29px;
+  left: 122px;
+  font-size: var(--font-size-11xl);
+  font-weight: 800;
+}
+.profile-details,
+.publish-product1 {
+  position: absolute;
+  font-size: var(--font-size-6xl);
+  font-weight: 800;
+}
+.profile-details {
+  top: 33px;
+  left: calc(50% - 87px);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.publish-product1 {
+  top: calc(50% - 16px);
+  left: calc(50% - 102.5px);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.profile-btn1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato-100);
+  position: absolute;
+  top: 466px;
+  left: 64px;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  width: 463px;
+  height: 60px;
+  overflow: hidden;
+}
+.register-form1 {
+  position: absolute;
+  top: calc(50% - 250.5px);
+  left: calc(50% - 296px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 20px 65px rgba(0, 0, 0, 0.25);
+  width: 592px;
+  height: 550px;
+  overflow-y: auto;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.farmers-profile {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  height: 697px;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkseagreen);
+  font-family: var(--font-anonymous-pro);
+}

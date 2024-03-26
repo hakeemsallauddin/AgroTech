@@ -1,0 +1,272 @@
+.home9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+}
+
+.home9 {
+  top: 18%;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  color: var(--color-darkseagreen);
+  text-align: left;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home9 {
+  height: 54%;
+  left: 0;
+  display: inline-block;
+  width: 64px;
+}
+.farmtech9 {
+  position: absolute;
+  top: calc(50% - 24.5px);
+  left: calc(50% - 111px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 219px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-bar8 {
+  position: absolute;
+  width: calc(100% - 48px);
+  top: 20px;
+  right: 24px;
+  left: 24px;
+  height: 55px;
+  overflow: hidden;
+}
+.about-us9,
+.nav-container7 {
+  position: absolute;
+  color: var(--color-darkseagreen);
+}
+.nav-container7 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1536px;
+  height: 75px;
+  overflow: hidden;
+  text-align: center;
+  font-family: var(--font-anonymous-pro);
+}
+.about-us9 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 3.9%;
+  top: 4.5%;
+  left: 119px;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  font-family: var(--font-inter);
+  text-align: left;
+  display: inline-block;
+  width: 103px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home10,
+.profile1 {
+  left: 27px;
+  cursor: pointer;
+}
+.home10 {
+  position: absolute;
+  top: 44px;
+  font-weight: 800;
+}
+.profile1 {
+  top: 168px;
+}
+.feedback1,
+.organic-manure2,
+.profile1 {
+  position: absolute;
+  font-weight: 800;
+}
+.feedback1 {
+  top: 217px;
+  left: 27px;
+  cursor: pointer;
+}
+.organic-manure2 {
+  top: 20px;
+  left: 9px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.next-icon3,
+.selected1 {
+  position: absolute;
+  overflow: hidden;
+}
+.next-icon3 {
+  top: calc(50% - 15.5px);
+  left: 192px;
+  width: 30px;
+  height: 30px;
+}
+.selected1 {
+  top: 84px;
+  left: calc(50% - 115px);
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 20px 75px 20px rgba(0, 0, 0, 0.25);
+  width: 230px;
+  height: 67px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray);
+}
+.log-out1 {
+  position: absolute;
+  top: calc(50% - 13px);
+  left: calc(50% - 43px);
+  font-weight: 800;
+}
+.farmer-home-nav1,
+.logout-btn1 {
+  position: absolute;
+  overflow: hidden;
+}
+.logout-btn1 {
+  top: 422px;
+  left: 11px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-crimson-100);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  width: 230px;
+  height: 50px;
+}
+.farmer-home-nav1 {
+  top: 137px;
+  left: 59px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  width: 254px;
+  height: 485px;
+  font-size: var(--font-size-xl);
+}
+.buy-organic-manure {
+  position: absolute;
+  top: 25px;
+  left: 23px;
+  font-weight: 800;
+}
+.product-container-item {
+  position: absolute;
+  top: 62.5px;
+  left: calc(50% - 460.5px);
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 921px;
+  height: 1px;
+}
+.kisspng-fertilisers-agricultur-icon {
+  position: absolute;
+  top: 28px;
+  left: calc(50% - 55px);
+  width: 110px;
+  height: 113.7px;
+  object-fit: cover;
+}
+.img-container2 {
+  position: absolute;
+  top: calc(50% - 80px);
+  left: 18px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(211.13deg, #8ba17f, #636960);
+  box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.25);
+  width: 120px;
+  height: 160px;
+  overflow: hidden;
+}
+.fertilizers,
+.price-3 {
+  position: absolute;
+  top: 28px;
+  left: 157px;
+  font-weight: 800;
+}
+.price-3 {
+  top: 76px;
+}
+.qty-3 {
+  top: 107px;
+  left: 157px;
+}
+.div6,
+.publish-product4,
+.qty-3 {
+  position: absolute;
+  font-weight: 800;
+}
+.div6 {
+  top: 80px;
+  left: 225px;
+  font-size: var(--font-size-mini);
+}
+.publish-product4 {
+  top: calc(50% - 11.5px);
+  left: calc(50% - 16.5px);
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.publish-btn-effect3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato-100);
+  top: 140px;
+  left: 160px;
+  border-radius: var(--br-6xl);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  width: 135px;
+  height: 35px;
+}
+.product-container1,
+.product2,
+.publish-btn-effect3 {
+  position: absolute;
+  overflow: hidden;
+}
+.product2 {
+  height: 37.74%;
+  width: 32.26%;
+  top: 15.09%;
+  right: 65.2%;
+  bottom: 47.17%;
+  left: 2.53%;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  box-shadow: 0 20px 85px rgba(0, 0, 0, 0.25);
+  font-size: var(--font-size-lg);
+  color: var(--color-gray);
+}
+.product-container1 {
+  top: 115px;
+  left: 403px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-darkseagreen);
+  box-shadow: 0 15px 65px 20px rgba(0, 0, 0, 0.25);
+  width: 1026px;
+  height: 530px;
+  font-size: var(--font-size-6xl);
+}
+.farmers-organic-manure {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkslategray);
+  height: 697px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

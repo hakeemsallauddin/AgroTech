@@ -1,0 +1,120 @@
+.frame-child1 {
+  top: 72px;
+  left: 17px;
+  border-radius: 50%;
+  background-color: var(--color-gold);
+  width: 40px;
+  height: 40px;
+}
+.frame-child1,
+.r2,
+.ram1 {
+  position: absolute;
+}
+.r2 {
+  top: 74px;
+  left: 30px;
+  font-size: var(--font-size-6xl);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+}
+.ram1 {
+  top: 80px;
+  left: 68px;
+  display: inline-block;
+  width: 43px;
+}
+.star-icon15,
+.star-icon16,
+.star-icon17,
+.star-icon18,
+.star-icon19 {
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.star-icon16,
+.star-icon17,
+.star-icon18,
+.star-icon19 {
+  left: 34px;
+}
+.star-icon17,
+.star-icon18,
+.star-icon19 {
+  left: 64px;
+}
+.star-icon18,
+.star-icon19 {
+  left: 94px;
+}
+.star-icon19 {
+  left: 124px;
+}
+.close-icon2,
+.users-feedback-rating2 {
+  position: absolute;
+  top: 77px;
+  right: 23px;
+  width: 151px;
+  height: 35px;
+  overflow: hidden;
+}
+.close-icon2 {
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.users-feedback {
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  width: 153px;
+}
+.secondly-while-the {
+  margin: 0;
+}
+.firstly-the-quality-container {
+  position: absolute;
+  width: calc(100% - 33px);
+  top: 13px;
+  left: 16px;
+  display: inline-block;
+}
+.firstly-the-quality-of-the-to-wrapper {
+  position: absolute;
+  width: calc(100% - 57px);
+  top: 134px;
+  right: 28px;
+  left: 29px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  height: 285px;
+  overflow-y: auto;
+  color: var(--color-black);
+}
+.ellipse-root {
+  width: 550px;
+  position: relative;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-darkslategray);
+  box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.25);
+  height: 450px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-istok-web);
+}
