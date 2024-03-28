@@ -72,7 +72,6 @@ FarmTech is a platform designed to seamlessly connect farmers with consumers, fo
 * Expand your market, and sell directly to consumers beyond local markets.
 * Tailor product offerings, pricing, and promotions for market demands and consumer preferences.
 * Collect valuable consumer feedback for continuous improvement in product quality and farming practices.
-* Utilize a 30-day sales graph to track daily sales, gaining valuable insights.
 * Showcase products online for visibility, even without delivery services.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
